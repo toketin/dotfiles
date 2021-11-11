@@ -1,0 +1,16 @@
+/root/*/.cache
+/home/*/.cache
+/proc/*
+/sys/*
+/dev/*
+/run/*
+/mnt/*
+/media/*
+/export
+/srv/*
+/var/cache/apt/archives/*.deb
+lost+found/*
+/tmp/*
+/var/tmp/*
+/var/swap/*
+/var/backups/*
