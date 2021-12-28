@@ -111,6 +111,7 @@ alias aggiorna="sudo pacmatic -Syu"
 alias ssh.rpi="kitty +kitten ssh -i ~/.ssh/id_cubie -p 1902 marco@192.168.1.104"
 alias ssh.vps="kitty +kitten ssh -i ~/.ssh/id_rsa_vps -p 19028 marco@mlondero.it"
 alias ssh.mount="sshfs -o allow_other,default_permissions,IdentityFile=~/.ssh/id_cubie marco@192.168.1.104:/mnt/transmission mnt_ssh -C -p 1902"
+alias ssh.syncthing="kitty +kitten ssh -i .ssh/id_rsa_vps -p 19028 -L 9090:127.0.0.1:8384 marco@mlondero.it"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
